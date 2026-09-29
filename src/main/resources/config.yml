@@ -1,0 +1,24 @@
+# Math Quest rewards. Item names are Minecraft item IDs (e.g. EMERALD, DIAMOND, IRON_INGOT, COOKIE).
+rewards:
+  # Given for every correct answer
+  correct-item: EMERALD
+  correct-amount: 1
+  xp-per-correct: 5
+  # Extra bonus every N correct answers in a row
+  bonus-every: 5
+  bonus-item: DIAMOND
+  bonus-amount: 1
+  # Max number of rewarded answers per player per day (0 = no limit)
+  daily-limit: 40
+
+leveling:
+  # Correct answers in a row needed to move up a level
+  up-after: 5
+  # Wrong answers in a row before moving down a level
+  down-after: 3
+
+# Remind players about /math when they join
+join-message: true
+
+# Give players a Math Quest book on join (tap/right-click with it to open the menu)
+give-book: true

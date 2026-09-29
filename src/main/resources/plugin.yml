@@ -1,0 +1,16 @@
+name: MathQuest
+version: 1.0.0
+main: edu.mathquest.MathQuest
+api-version: '1.21'
+softdepend: [floodgate]
+description: Learn fractions, tenths & hundredths, and multiplication with quizzes and rewards.
+commands:
+  math:
+    description: Open Math Quest
+    aliases: [fractions, mathquest]
+    usage: /math
+permissions:
+  mathquest.use:
+    default: true
+  mathquest.admin:
+    default: op

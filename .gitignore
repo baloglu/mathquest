@@ -1,0 +1,3 @@
+# Compile-time dependencies copied from the server (not ours to redistribute)
+lib/
+build/
